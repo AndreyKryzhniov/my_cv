@@ -1,0 +1,11 @@
+.project_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    padding: 20px 20px 0;
+    border: 1px solid lightgray;
+}
