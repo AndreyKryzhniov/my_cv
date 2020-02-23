@@ -26,3 +26,13 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+    .information {
+        display: flex;
+        flex-direction: column;
+    }
+    .hard_soft {
+        width: 100%;
+    }
+}

@@ -11,3 +11,13 @@
     align-content: space-between;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 600px) {
+    .information {
+        display: flex;
+        flex-direction: column;
+    }
+    .hard_soft {
+        width: 100%;
+    }
+}

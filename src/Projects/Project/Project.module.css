@@ -9,3 +9,31 @@
     padding: 20px 20px 0;
     border: 1px solid lightgray;
 }
+
+.buttons {
+    display: block;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 15px auto 10px;
+    padding: 12px 40px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #35c4ff;
+    border: 2px solid #35c4ff;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+@media screen and (max-width: 600px) {
+    .buttons {
+        width: 100%;
+        font-size: 14px;
+        margin: 5px auto 5px;
+        padding: 4px 20px;
+    }
+}

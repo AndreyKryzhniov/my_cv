@@ -5,6 +5,12 @@
     width: 100%;
 }
 
+.avatarStyle {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+}
+
 p {
     position: relative;
     margin: 3px;
@@ -16,4 +22,19 @@ p {
     left: 120px;
     color: black;
     text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .container_inform {
+        display: flex;
+        flex-direction: column;
+    }
+    .avatarStyle {
+        width: 250px;
+        height: 250px;
+    }
+    p {
+        margin: 1px;
+        font-size: 14px;
+    }
 }

@@ -2,7 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #35c4ff;
+    background-color: gray;
     height: 50px;
     width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        font-size: 14px;
+    }
 }
