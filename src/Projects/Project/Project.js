@@ -3,10 +3,12 @@ import p from './Project.module.css'
 
 function Project(props) {
 
+    const information = props.information.map(el => <li>{el}</li>);
+
     return (
         <div className={p.project_wrapper}>
             <div><h3>{props.title}</h3></div>
-            <div><p>{props.information}</p></div>
+            <div><p><ul>{information}</ul></p></div>
             {props.url &&
                 <a className={p.buttons}
                    target='_blank'

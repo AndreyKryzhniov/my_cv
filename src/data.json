@@ -1,0 +1,55 @@
+[
+  {
+    "title": "СОЦИАЛЬНАЯ СЕТЬ",
+    "information": [
+      "авторизация в приложении",
+      "редактирование профиля",
+      "переход по страницам пользователей",
+      "подписка и отписка от пользователей",
+      "добавление постов"
+    ],
+    "url": "https://andreykryzhniov.github.io/project_social_network_2.0/#/",
+    "urlGit": "https://github.com/AndreyKryzhniov/project_social_network_2.0"
+  },
+  {
+    "title": "РАЗЛИЧНЫЕ ШАБЛОНЫ ДЛЯ ПРОЕКТОВ",
+    "information": [
+      "страница логина с валидацией",
+      "модальные окна",
+      "корзина товаров магазина (добавление/удаление товара)"
+    ],
+    "url": "https://andreykryzhniov.github.io/shop_mini/",
+    "urlGit": "https://github.com/AndreyKryzhniov/shop_mini"
+  },
+  {
+    "title": "TodoList",
+    "information": [
+      "Добавление/удаление списков",
+      "Добавление/удаление задач",
+      "Сортировка отображения выполненных/невыполненных задач"
+    ],
+    "url": "https://github.com/AndreyKryzhniov/Todo_list",
+    "urlGit": null
+  },
+  {
+    "title": "Random chat",
+    "information": [
+      "По нажатию единственной кнопки вас соединяет со случайным пользователем",
+      "Возможность отправки сообщений",
+      "Возможность Log in/Log out",
+      "В данный момент проект в разработке (для тестирования требуется два пользователя)"
+    ],
+    "url": "https://andreykryzhniov.github.io/random_chat/#/start_page",
+    "urlGit": "https://github.com/AndreyKryzhniov/random_chat"
+  },
+  {
+    "title": "Вопросник",
+    "information": [
+      "добавление вопросов с сохранием на клиенте и на firebase",
+      "авторизация через firebase(для просмотра всех присланных вопросов)",
+      "использовался чистый JS"
+    ],
+    "url": "https://question-4e1dc.web.app/",
+    "urlGit": "https://github.com/AndreyKryzhniov/ask_questions/tree/master/src"
+  }
+]

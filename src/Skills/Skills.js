@@ -9,7 +9,7 @@ function Skills() {
     <div className={i.container}>
         <div className={skl.container_skills}>
             <div className={skl.title}>
-                <h2>Ключивые навыки</h2>
+                <h2>Ключевые навыки</h2>
             </div>
             <div className={skl.information}>
                 <div className={skl.hard_soft}>
@@ -27,7 +27,7 @@ function Skills() {
                     <h3>SOFT SKILLS</h3>
                     <lo>
                         <li>Хорошие коммуникативные навыки</li>
-                        <li>Аналитический склад ума, быстрая обучаемость, желание разиваться</li>
+                        <li>Аналитический склад ума, быстрая обучаемость, желание развиваться</li>
                         <li>Ответственный, целеустремленный и трудолюбивый</li>
                     </lo>
                 </div>

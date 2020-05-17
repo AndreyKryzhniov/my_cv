@@ -1,20 +1,14 @@
 import React from 'react';
 import i from '../style/Container.module.css';
-import avatar from '../img/Avatar.jpg'
+import avatar from '../img/avatar.jpg'
 import inf from './Information.module.css'
 
 function Information() {
 
-    let avatarStyle = {
-        width: '350px',
-        height: '350px',
-        borderRadius: '50%'
-    }
-
     return (
         <div className={i.container}>
             <div className={inf.container_inform}>
-                <div><img src={avatar} className={inf.avatarStyle}/></div>
+                <div><img src={avatar} className={inf.avatarStyle} alt={"avatar"}/></div>
                 <div>
                     <div>
                         <h2>КРАТКАЯ ИНФОРМАЦИЯ ОБО МНЕ</h2>
